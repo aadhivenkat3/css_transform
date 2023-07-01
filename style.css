@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.image{
+	margin:50px;
+	width:100px;
+	height:100px;
+}
+.transform-rotate img:nth-child(1):hover{
+	transform:rotate(45deg);
+}
+.transform-rotate img:nth-child(2):hover{
+	transform:rotate(-45deg);
+}
+.transform-rotate img:nth-child(3):hover{
+	transform:rotatex(180deg);
+}
+.transform-rotate img:nth-child(4):hover{
+	transform:rotatey(180deg);
+}
+.transform-scale img:nth-child(1):hover{
+	transform:scale(2,3);
+}
+.transform-scale img:nth-child(2):hover{
+	transform:scalex(2);
+}
+.transform-scale img:nth-child(3):hover{
+	transform:scaley(2);
+}
+.transform-scale img:nth-child(4):hover{
+	transform:scale(0.5,0.5);
+}
+.transform-translate img:nth-child(1):hover{
+	transform:translatex(40%);
+}
+.transform-translate img:nth-child(2):hover{
+	transform:translatex(-40%);
+}
+.transform-translate img:nth-child(3):hover{
+	transform:translatey(40%);
+}
+.transform-translate img:nth-child(4):hover{
+	transform:translatey(-40%);
+}
+.transform-skew img:nth-child(1):hover{
+	transform:skewx(45deg);
+}
+.transform-skew img:nth-child(2):hover{
+	transform:skewx(-45deg);
+}
+.transform-skew img:nth-child(3):hover{
+	transform:skewy(60deg);
+}
+.transform-skew img:nth-child(4):hover{
+	transform:skewy(-60deg);
+}
+.matrix img:nth-child(1):hover{
+	transform:matrix(3,0.7,1,2,2,1);
+}
+.z-index{
+	margin:30px;
+	position:relative;
+}
+.box1{
+	width:100px;
+	height:100px;
+	background-color:teal;
+	position:relative;
+	
+}
+.box2{
+	width:100px;
+	height:100px;
+	left:20px;
+	top:20px;
+	background-color:yellow;
+	position:absolute;
+	z-index:4;
+}
+.box3{
+	width:100px;
+	height:100px;
+	left:40px;
+	top:40px;
+	position:absolute;
+	background-color:skyblue;
+}
+.box4{
+	width:100px;
+	height:100px;
+	left:60px;
+	top:60px;
+	position:absolute;
+	background-color:dodgerblue;
+}
